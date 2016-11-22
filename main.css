@@ -23,9 +23,13 @@ main {
   height: 220px;
   background: rgba(255, 255, 255, 0.7);
   border-radius: 10px;
-  text-align: center;}
+  text-align: center;
+  padding: 10px;
+}
 
 h1 {
+  font-family: 'Indie Flower', cursive;
+  font-size: 2.7em;
 	padding-top: 15px;
   color: #385307;
 }
