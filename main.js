@@ -84,6 +84,7 @@ function getRandomDish(){
 	var randomDish = dishes[Math.floor(Math.random()*dishes.length)];
 
 	// Kollar om användaren endast vill se vegetariska rätter
+	var vegoCheckbox = document.getElementById("vegoCheckbox");
 	if (vegoCheckbox.checked === true) {
 		// Hämtar nya rätter tills vegetarisk rätt kommer upp
 		while(randomDish.veg === false){
